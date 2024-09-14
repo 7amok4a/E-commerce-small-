@@ -1,0 +1,37 @@
+/* Custom styles for the carousel */
+.custom-carousel {
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.custom-carousel .carousel-inner img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 200px; /* Further reduced height */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+    display: none; /* Remove the default arrows */
+}
+
+/* Optional: Add some animation */
+.carousel-item {
+    transition: transform 1.5s ease, opacity 1.5s ease;
+}

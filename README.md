@@ -98,9 +98,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 4. Push to the branch (\`git push origin feature/new-feature\`).
 5. Open a pull request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
